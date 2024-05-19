@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Pets API scenarios" tests="9" skipped="0" failures="0" errors="0" timestamp="2024-05-19T16:11:04" hostname="LAPTOP-KQ28J4NA" time="1.864">
+  <properties/>
+  <testcase name="retrieve pets according to their status #1" classname="Pets API scenarios" time="0.983"/>
+  <testcase name="retrieve pets according to their status #2" classname="Pets API scenarios" time="0.071"/>
+  <testcase name="retrieve pets according to their status #3" classname="Pets API scenarios" time="0.052"/>
+  <testcase name="retrieve pets according to their ID #1" classname="Pets API scenarios" time="0.115"/>
+  <testcase name="retrieve pets according to their ID #2" classname="Pets API scenarios" time="0.046"/>
+  <testcase name="retrieve pets according to their ID #3" classname="Pets API scenarios" time="0.041"/>
+  <testcase name="add a new pet to the store and retrieve it" classname="Pets API scenarios" time="0.395"/>
+  <testcase name="update pet info and retrieve it" classname="Pets API scenarios" time="0.091"/>
+  <testcase name="delete an existing pet by ID" classname="Pets API scenarios" time="0.067"/>
+  <system-out><![CDATA[Response Status Code: 200
+Response JSON: {"id":16,"category":{"id":1,"name":"Dogs"},"name":"Terry","photoUrls":["http://example.com/photo1","http://example.com/photo2"],"tags":[{"id":1,"name":"tag1"},{"id":2,"name":"tag2"}],"status":"available"}
+Retrieved new Pet JSON: {"id":16,"category":{"id":1,"name":"Dogs"},"name":"Terry","photoUrls":["http://example.com/photo1","http://example.com/photo2"],"tags":[{"id":1,"name":"tag1"},{"id":2,"name":"tag2"}],"status":"available"}
+Retrieved updated Pet JSON: {"id":16,"category":{"id":1,"name":"Dogs"},"name":"Molly","photoUrls":["http://example.com/photo1","http://example.com/photo2"],"tags":[{"id":1,"name":"tag1"},{"id":2,"name":"tag2"}],"status":"available"}
+Retrieved deleted Pet JSON: Pet not found
+]]></system-out>
+  <system-err><![CDATA[Error: Failed to parse the JSON document
+]]></system-err>
+</testsuite>

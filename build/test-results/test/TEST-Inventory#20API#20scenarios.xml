@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Inventory API scenarios" tests="7" skipped="0" failures="0" errors="0" timestamp="2024-05-19T16:10:59" hostname="LAPTOP-KQ28J4NA" time="4.32">
+  <properties/>
+  <testcase name="retrieve all the inventory" classname="Inventory API scenarios" time="2.223"/>
+  <testcase name="find purchase order by ID #1" classname="Inventory API scenarios" time="0.116"/>
+  <testcase name="find purchase order by ID #2" classname="Inventory API scenarios" time="1.288"/>
+  <testcase name="find purchase order by ID #3" classname="Inventory API scenarios" time="0.296"/>
+  <testcase name="place a new order in the store" classname="Inventory API scenarios" time="0.259"/>
+  <testcase name="delete purchase order by ID #1" classname="Inventory API scenarios" time="0.111"/>
+  <testcase name="delete purchase order by ID #2" classname="Inventory API scenarios" time="0.026"/>
+  <system-out><![CDATA[io.restassured.internal.RequestSpecificationImpl@762637be
+Retrieved Inventory JSON: {"approved":50,"placed":100,"delivered":50}
+Response Status Code: 200
+Response JSON: {"id":10,"petId":198772,"quantity":5,"shipDate":"2024-05-19T06:04:15.298+00:00","status":"approved","complete":true}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
